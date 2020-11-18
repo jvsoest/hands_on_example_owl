@@ -183,6 +183,7 @@
                 </owl:someValuesFrom>
             </owl:Restriction>
         </owl:equivalentClass>
+        <owl:disjointWith rdf:resource="http://www.w3.org/ns/org#FormalOrganization"/>
     </owl:Class>
     
 
@@ -230,6 +231,12 @@
     <owl:Class rdf:about="http://www.biss-institute.nl/ontologies/workrelations/Teenager">
         <rdfs:subClassOf rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
     </owl:Class>
+    
+
+
+    <!-- http://www.w3.org/ns/org#FormalOrganization -->
+
+    <rdf:Description rdf:about="http://www.w3.org/ns/org#FormalOrganization"/>
     
 
 
