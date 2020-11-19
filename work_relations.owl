@@ -39,6 +39,16 @@
     
 
 
+    <!-- http://www.biss-institute.nl/ontologies/workrelations/subUnitOf -->
+
+    <owl:ObjectProperty rdf:about="http://www.biss-institute.nl/ontologies/workrelations/subUnitOf">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/ns/org#subOrganizationOf"/>
+        <rdfs:domain rdf:resource="http://www.w3.org/ns/org#OrganizationalUnit"/>
+        <rdfs:range rdf:resource="http://www.w3.org/ns/org#OrganizationalUnit"/>
+    </owl:ObjectProperty>
+    
+
+
     <!-- http://www.biss-institute.nl/ontologies/workrelations/supervised_by -->
 
     <owl:ObjectProperty rdf:about="http://www.biss-institute.nl/ontologies/workrelations/supervised_by">
@@ -255,7 +265,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.biss-institute.nl/ontologies/workrelations/BISS">
         <rdf:type rdf:resource="http://www.biss-institute.nl/ontologies/workrelations/Department"/>
-        <org:unitOf rdf:resource="http://www.biss-institute.nl/ontologies/workrelations/FSE"/>
+        <workrelations:subUnitOf rdf:resource="http://www.biss-institute.nl/ontologies/workrelations/FSE"/>
     </owl:NamedIndividual>
     
 
@@ -282,7 +292,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.biss-institute.nl/ontologies/workrelations/IDS">
         <rdf:type rdf:resource="http://www.biss-institute.nl/ontologies/workrelations/Department"/>
-        <org:unitOf rdf:resource="http://www.biss-institute.nl/ontologies/workrelations/FSE"/>
+        <workrelations:subUnitOf rdf:resource="http://www.biss-institute.nl/ontologies/workrelations/FSE"/>
     </owl:NamedIndividual>
     
 
