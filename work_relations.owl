@@ -137,7 +137,7 @@
     <!-- http://www.biss-institute.nl/ontologies/workrelations/Department -->
 
     <owl:Class rdf:about="http://www.biss-institute.nl/ontologies/workrelations/Department">
-        <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/org#FormalOrganization"/>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/org#OrganizationalUnit"/>
     </owl:Class>
     
 
@@ -191,7 +191,7 @@
     <!-- http://www.biss-institute.nl/ontologies/workrelations/Faculty -->
 
     <owl:Class rdf:about="http://www.biss-institute.nl/ontologies/workrelations/Faculty">
-        <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/org#FormalOrganization"/>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/org#OrganizationalUnit"/>
     </owl:Class>
     
 
